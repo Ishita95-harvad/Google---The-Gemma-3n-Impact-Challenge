@@ -2,14 +2,15 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
 
-## 🚀 LegalMate Edge – Jetson Edition 🧠  Real-Time AI Legal Companion on NVIDIA Jetson
+## LegalMate Edge – Jetson Edition 🧠  Real-Time AI Legal Companion on NVIDIA Jetson
 
 **LegalMate Edge** is a lightweight legal document analysis tool optimized for **NVIDIA Jetson** devices using **Gemma 3n**, enabling multimodal understanding of legal contracts, even offline.
 
----------------------------------------
 
-📦 📦**AI-Powered Legal Contract Analyzer**- Automate contract **reviews**, **surface hidden risks, and ensure compliance — with speed, privacy, and security**.
-  
+ ---------------------------------------
+ 
+**AI-Powered Legal Contract Analyzer**- Automate contract **reviews**, **surface hidden risks, and ensure compliance — with speed, privacy, and security**.
+
 🚀 **Overview**
 
 LegalMate Edge is a cutting-edge GenAI-powered legal assistant designed to run entirely on-device using the NVIDIA Jetson platform and Gemma 3n LLM. It enables offline legal clause analysis, OCR-powered document scanning, and context-aware contract feedback—all on a lightweight edge device, making legal AI portable, secure, and cost-efficient.
@@ -37,16 +38,16 @@ AI_Demo_Video_Kit/
 
 **🔍 Core Capabilities**
 
-**OCR + Clause Extraction**
+- **OCR + Clause Extraction**
 Extract clauses from scanned PDFs and images using advanced OCR and layout-aware NLP.
 
-**Gemma-Driven Clause Evaluation**
+- **Gemma-Driven Clause Evaluation**
 Real-time detection of risks, NDA violations, termination clauses, and more using Gemma 3n on-device.
 
-**Edge Deployment**
+- **Edge Deployment**
 Works fully offline on Jetson Nano / Xavier NX — ideal for field lawyers, remote legal teams, and enterprise-grade compliance.
 
-**Designed For**
+- **Designed For**
 🏛️ Law Firms | 📄 Contract Reviewers | 🛡 Compliance Teams
 
 ---
@@ -59,7 +60,7 @@ git clone https://github.com/legalmate/legalmate-edge.git
 cd legalmate-edge
 bash install.sh  # For Jetson setup
 
-**Google-Gemma-3n-hackathon**
+**# Google-Gemma-3n-hackathon**
 
 `````````
  
@@ -67,15 +68,23 @@ bash install.sh  # For Jetson setup
 
 #### 🔧 Key Features
 
-✅ **Multimodal Interface**: Upload PDF/Images with contracts → Live clause detection via OCR + NLP.
+-  📦 **OCR + Clause Extraction** from scanned legal documents (NDAs, SLAs, rental agreements)
 
-✅ **On-Device Clause Extraction**: Leverages Gemma 3n + Jetson to parse NDAs, SLAs, rental agreements, etc.
+- 📦 **Gemma 3n + Jetson NLP**: Detects risk clauses, termination triggers, missing terms
 
-✅ **Privacy-First Legal AI**: Runs fully offline on Jetson, ensuring data never leaves the device.
+- 🧠 **Gemini/Gemma Evaluation**: Context-aware legal reasoning with open weights
+  
+- 🔍 **Runs Fully Offline** on Jetson Nano / Xavier NX — privacy-first legal AI
+ 
+- 🤖 **Multimodal Interface**: Upload PDF/Images with contracts → Live clause detection via OCR + NLP.
 
-✅ **Voice & Visual Interaction**: Input via microphone or camera, output via speech and highlights.
+- 📄 **On-Device Clause Extraction**: Leverages Gemma 3n + Jetson to parse NDAs, SLAs, rental agreements, etc.
 
-✅ **Realtime Feedback**: Suggests risk flags, missing clauses, and potential negotiation points.
+- 🔐  **Privacy-First Legal AI**: Runs fully offline on Jetson, ensuring data never leaves the device.
+
+- 🎙️ **Voice & Visual Interaction**: Input via microphone or camera, output via speech and highlights.
+
+- ⚠️ **Realtime Feedback**: Suggests risk flags, missing clauses, and potential negotiation points.
 
 ----------------
 

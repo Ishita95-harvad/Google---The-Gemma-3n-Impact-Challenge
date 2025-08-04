@@ -1,3 +1,7 @@
+![License](https://img.shields.io/github/license/legalmate/legalmate-edge)
+![Jetson Powered](https://img.shields.io/badge/Jetson-Nano%20%7C%20Xavier%20NX-blue)
+![Gemma Model](https://img.shields.io/badge/Gemma-3n%204B-multimodal)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/github/license/legalmate/legalmate-edge) ![Jetson Powered](https://img.shields.io/badge/Jetson-Nano%20%7C%20Xavier%20NX-blue)  ![Gemma Model](https://img.shields.io/badge/Gemma-3n--4B-multimodal-purple)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 

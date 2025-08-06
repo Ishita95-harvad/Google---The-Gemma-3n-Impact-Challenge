@@ -1,11 +1,12 @@
+![Jetson Powered](https://img.shields.io/badge/Jetson-Nano%20%7C%20Xavier%20NX-blue)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Apache 2.0 License](https://img.shields.io/github/license/legalmate/legalmate-edge) 
 ![Jetson Powered](https://img.shields.io/badge/Jetson-Nano%20%7C%20Xavier%20NX-blue)
 ![Gemma Model](https://img.shields.io/badge/Gemma-3n%204B-multimodal) 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Jetson Powered](https://img.shields.io/badge/Jetson-Nano%20%7C%20Xavier%20NX-blue) 
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Gemma Model](https://img.shields.io/badge/Gemma-3n--4B-multimodal-purple)
-
+![Jetson Platform](https://img.shields.io/badge/Jetson-Nano--Ready-green)
+![Multimodal AI](https://img.shields.io/badge/Multimodal-AI--Vision--Language-blueviolet)
+![Gemma 3n](https://img.shields.io/badge/Gemma-3n--4B-multimodal-purple)
 
 ## LegalMate Edge – Jetson Edition 🧠  Real-Time AI Legal Companion on NVIDIA Jetson
 
@@ -13,7 +14,8 @@
 
 
  ---------------------------------------
- 
+ ### 🚀 LegalMate: Edge AI with Google Gemma 3N  
+Pushing boundaries in multimodal legal intelligence.
 **AI-Powered Legal Contract Analyzer**- Automate contract **reviews**, **surface hidden risks, and ensure compliance — with speed, privacy, and security**.
 
 🚀 **Overview**

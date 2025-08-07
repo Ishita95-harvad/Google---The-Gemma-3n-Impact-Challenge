@@ -6,107 +6,53 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Jetson Platform](https://img.shields.io/badge/Jetson-Nano--Ready-green)
 ![Multimodal AI](https://img.shields.io/badge/Multimodal-AI--Vision--Language-blueviolet)
-![Gemma 3n](https://img.shields.io/badge/Gemma-3n--4B-multimodal-purple)
-
-## LegalMate Edge – Jetson Edition 🧠  Real-Time AI Legal Companion on NVIDIA Jetson
-
-**LegalMate Edge** is a lightweight legal document analysis tool optimized for **NVIDIA Jetson** devices using **Gemma 3n**, enabling multimodal understanding of legal contracts, even offline.
 
 
- ---------------------------------------
- ### 🚀 LegalMate: Edge AI with Google Gemma 3N  
-Pushing boundaries in multimodal legal intelligence.
-**AI-Powered Legal Contract Analyzer**- Automate contract **reviews**, **surface hidden risks, and ensure compliance — with speed, privacy, and security**.
+# [Google - The Gemma 3n Impact Challenge](https://www.kaggle.com/competitions/google-gemma-3n-hackathon)
 
-🚀 **Overview**
+![Explore the newest Gemma model and build your best products for a better world](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F23623109%2Fe4c38d16ecc0580caf620235c7c6dc0a%2Fheader.png?generation=1754312063215711&alt=media)
 
-LegalMate Edge is a cutting-edge GenAI-powered legal assistant designed to run entirely on-device using the NVIDIA Jetson platform and Gemma 3n LLM. It enables offline legal clause analysis, OCR-powered document scanning, and context-aware contract feedback—all on a lightweight edge device, making legal AI portable, secure, and cost-efficient.
+-------
 
-------------------
+## [🧠 Legal Mate Edge – Real-Time AI Legal Companion on NVIDIA Jetson](https://www.kaggle.com/competitions/google-gemma-3n-hackathon)
 
-**📁 Folder Structure:**
-````
-AI_Demo_Video_Kit/
-├── assets/
-│   └── screenshots/      ← Placeholder for visuals
-├── contracts/
-│   ├── NDA_Template.pdf  ← General Mutual NDA
-│   └── SLA_Template.pdf  ← Standard SLA for services
-├── scripts/
-│   ├── voiceover_script.txt
-│   └── storyboard_notes.md
-├── video/
-│   ├── storyboard.pdf    ← Printable storyboard
-│   └── final_edit/       ← Placeholder for final video
-├── README.md
-└── LICENSE
-`````
----------------------------
+## 🚀 Overview
 
-**🔍 Core Capabilities**
-
-- **OCR + Clause Extraction**
-Extract clauses from scanned PDFs and images using advanced OCR and layout-aware NLP.
-
-- **Gemma-Driven Clause Evaluation**
-Real-time detection of risks, NDA violations, termination clauses, and more using Gemma 3n on-device.
-
-- **Edge Deployment**
-Works fully offline on Jetson Nano / Xavier NX — ideal for field lawyers, remote legal teams, and enterprise-grade compliance.
-
-- **Designed For**
-🏛️ Law Firms | 📄 Contract Reviewers | 🛡 Compliance Teams
+**Legal Mate Edge is a cutting-edge Gen AI-powered legal assistant designed to run entirely on-device using the NVIDIA Jetson platform and Gemma 3n LLM. It enables offline legal clause analysis, OCR-powered document scanning, and context-aware contract feedback—all on a lightweight edge device, making legal AI portable, secure, and cost-efficient.**
 
 ---
 
-**🛠 Installation**
+## 🔧 Key Features
 
-```bash
+✅ **Multimodal Interface**: Upload PDF/Images with contracts → Live clause detection via OCR + NLP  
+✅ **On-Device Clause Extraction**: Leverages Gemma 3n + Jetson to parse NDAs, SLAs, rental agreements, etc.  
+✅ **Privacy-First Legal AI**: Runs fully offline on Jetson, ensuring data never leaves the device  
+✅ **Voice & Visual Interaction**: Input via microphone or camera, output via speech and highlights  
+✅ **Realtime Feedback**: Suggests risk flags, missing clauses, and potential negotiation points  
 
-git clone https://github.com/legalmate/legalmate-edge.git
-cd legalmate-edge
-bash install.sh  # For Jetson setup
+---
 
-**# Google-Gemma-3n-hackathon**
+## 🔌 Technologies Used
 
-`````````
- 
-------------------------------------------------------------------------------------
+| **Stack**       | **Tools/Frameworks**               |
+|-----------------|------------------------------------|
+| **LLM**         | Gemma 3n (3B, via Ollama on-device)|
+| **OCR**         | Tesseract + EasyOCR                |
+| **Deployment**  | NVIDIA Jetson Nano / Xavier NX     |
+| **Interface**   | React + Streamlit + Firebase       |
+| **Finetuning**  | Unsloth + QLoRA (low-rank adapter) |
+| **Backend**     | FastAPI + Torch Serve              |
 
-#### 🔧 Key Features
+---
 
--  📦 **OCR + Clause Extraction** from scanned legal documents (NDAs, SLAs, rental agreements)
+## 🔍 Example Use Case
 
-- 📦 **Gemma 3n + Jetson NLP**: Detects risk clauses, termination triggers, missing terms
+- A lawyer scans a printed contract using the Jetson-powered Legal Maté device at a remote site with no internet  
+- In real time, the device extracts legal clauses, flags missing indemnity terms, and suggests rephrasing—all securely, without any data ever leaving the device  
 
-- 🧠 **Gemini/Gemma Evaluation**: Context-aware legal reasoning with open weights
-  
-- 🔍 **Runs Fully Offline** on Jetson Nano / Xavier NX — privacy-first legal AI
- 
-- 🤖 **Multimodal Interface**: Upload PDF/Images with contracts → Live clause detection via OCR + NLP.
+---
 
-- 📄 **On-Device Clause Extraction**: Leverages Gemma 3n + Jetson to parse NDAs, SLAs, rental agreements, etc.
+## 🔗 Visit our [Live Demo Teaser!](https://youtu.be/Z_ZmGqm3iow?si=s5LJzxm46K2CWZxE)
 
-- 🔐  **Privacy-First Legal AI**: Runs fully offline on Jetson, ensuring data never leaves the device.
+-----------------------
 
-- 🎙️ **Voice & Visual Interaction**: Input via microphone or camera, output via speech and highlights.
-
-- ⚠️ **Realtime Feedback**: Suggests risk flags, missing clauses, and potential negotiation points.
-
-----------------
-
-#### 🔌 Technologies Used
-
-- **Stack**:	Tools/Frameworks
-- **LLM**:	Gemma 3n (3B, via Ollama on-device)
-- **OCR**:	Tesseract + EasyOCR
-- **Deployment**:	NVIDIA Jetson Nano / Xavier NX
-- **Interface**:	React + Streamlit + Firebase
-- **Finetuning**:	Unsloth + QLoRA (low-rank adapter)
-- **Backend** :	FastAPI + TorchServe
-
-----------------
-
-#### 🔍 Example Use Case
-
-A lawyer scans a printed contract using the Jetson-powered LegalMate device at a remote site with no internet. In real time, the device extracts legal clauses, flags missing indemnity terms, and suggests rephrasing—all securely, without any data ever leaving the device.

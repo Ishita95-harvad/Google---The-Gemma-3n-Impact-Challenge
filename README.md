@@ -1,12 +1,11 @@
 ![Jetson Powered](https://img.shields.io/badge/Jetson-Nano%20%7C%20Xavier%20NX-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Apache 2.0 License](https://img.shields.io/github/license/legalmate/legalmate-edge) 
 ![Jetson Powered](https://img.shields.io/badge/Jetson-Nano%20%7C%20Xavier%20NX-blue)
 ![Gemma Model](https://img.shields.io/badge/Gemma-3n%204B-multimodal) 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Jetson Platform](https://img.shields.io/badge/Jetson-Nano--Ready-green)
 ![Multimodal AI](https://img.shields.io/badge/Multimodal-AI--Vision--Language-blueviolet)
-
+![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-svg)
 
 # [Google - The Gemma 3n Impact Challenge](https://www.kaggle.com/competitions/google-gemma-3n-hackathon)
 

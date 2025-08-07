@@ -59,10 +59,10 @@
 - A lawyer scans a printed contract using the Jetson-powered Legal Maté device at a remote site with no internet  
 - In real time, the device extracts legal clauses, flags missing indemnity terms, and suggests rephrasing—all securely, without any data ever leaving the device  
 
-### -Go To Links !
+## -Go To Links !
 
-## 🔗 Visit our [Live Demo Teaser!](https://youtu.be/Z_ZmGqm3iow?si=s5LJzxm46K2CWZxE)
+### 🔗 Visit our [Live Demo Teaser!](https://youtu.be/Z_ZmGqm3iow?si=s5LJzxm46K2CWZxE)
 
-## 🔗 Visit our [GitHub MTech Portfolio Page  &#128522;  <!-- HTML entity for 😊 -->](https://ishita95-harvad.github.io/Ishita-ai.mtech-portfolio.github.io/) 
+### 🔗 Visit our [GitHub MTech Portfolio Page  &#128522;  <!-- HTML entity for 😊 -->](https://ishita95-harvad.github.io/Ishita-ai.mtech-portfolio.github.io/) 
 
 ------

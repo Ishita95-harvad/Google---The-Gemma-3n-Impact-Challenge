@@ -1,5 +1,0 @@
-cd backend
-python app.py  # Start API
-
-cd frontend
-npm install && npm start  # OCR + UI
